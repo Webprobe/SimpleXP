@@ -1,0 +1,95 @@
+{
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "1440px",
+      "wideSize": "1440px"
+    },
+    "appearanceTools": true,
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "units": [ "px", "%", "rem", "em", "vh", "vw" ]
+    },
+    "typography": {
+      "lineHeight": true,
+      "fontStyle": true,
+      "fontWeight": true,
+      "fluid": true,
+      "fontSizes": [
+          { "slug": "x-small", "size": "1rem", "name": "Extra small", "fluid": { "min": "0.85rem", "max": "1.1rem"} },
+          { "slug": "small", "size": "1.3rem", "name": "Small", "fluid": { "min": "1.2rem", "max": "1.5rem"} },
+          { "slug": "standard", "size": "1.5rem", "name": "Standard", "fluid": { "min": "1.4rem", "max": "1.7rem"} },
+          { "slug": "medium", "size": "1.8rem", "name": "Medium", "fluid": { "min": "1.6rem", "max": "2rem"} },
+          { "slug": "large", "size": "2.4rem", "name": "Large", "fluid": { "min": "2.2rem", "max": "2.6rem"} },
+          { "slug": "x-large", "size": "3.5rem", "name": "X Large", "fluid": { "min": "3rem", "max": "4rem"} },
+          { "slug": "xx-large", "size": "4.4rem", "name": "XX Large", "fluid": { "min": "3.3rem", "max": "4.4rem"} }
+      ]
+    }
+  },
+  "styles": {
+
+    "typography": {
+			"fontSize": "var(--wp--preset--font-size--x-small)",
+			"lineHeight": "1.2"
+		},
+    "elements": {
+      "h1": {
+        "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" }
+      },
+      "h2": {
+        "typography": { "fontSize": "var(--wp--preset--font-size--large)" }
+      },
+      "h3": {
+        "typography": { "fontSize": "var(--wp--preset--font-size--medium)" }
+      },
+      "h4": {
+        "typography": { "fontSize": "var(--wp--preset--font-size--standard)" }
+      },
+      "h5": {
+        "typography": { "fontSize": "var(--wp--preset--font-size--small" }
+      },
+      "h6": {
+        "typography": { "fontSize": "var(--wp--preset--font-size--x-small" }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "spacing": {
+          "padding": {
+            "top": "14px",
+            "right": "25px",
+            "bottom": "14px",
+            "left": "25px"
+          },
+          "margin": {
+            "top": "0px",
+            "bottom": "0px"
+          }
+        }
+      }
+    }
+  },
+  "templateParts": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		}
+	],
+  "customTemplates": [
+    {
+      "name": "block-template",
+      "title": "Block Template",
+      "postTypes": [
+        "page"
+      ]
+    }
+  ]
+
+}

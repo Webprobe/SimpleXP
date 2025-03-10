@@ -1,0 +1,496 @@
+# Copyright (C) 2024 Riccardo Brivio
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleXP 1.1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/simplexp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-20T10:40:51+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: simplexp\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "SimpleXP"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "SimpleXP is a lightweight, fast and responsive WordPress theme ideal for custom websites and e-commerce. It includes a Full Site Editing template (Block Template), a customizable header with transparency effect, two menus with WooCommerce integration and animations. Offers block patterns for quick content creation. Easy to customize in fonts, colors, header and footer. Fully responsive and optimized for SEO. More details on configuration and installation in readme.txt file."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Riccardo Brivio"
+msgstr ""
+
+#: 404.php:22
+msgid "Oops! This page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:25
+msgid "The page you are trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr ""
+
+#: comments.php:12
+msgid "Do not load this page directly!"
+msgstr ""
+
+#: comments.php:17
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:24
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:24
+msgid "1 Response"
+msgstr ""
+
+#: comments.php:24
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:46
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:60
+msgid "Name *"
+msgstr ""
+
+#: comments.php:61
+msgid "Email *"
+msgstr ""
+
+#: comments.php:62
+msgid "Website"
+msgstr ""
+
+#: comments.php:64
+msgid "Comment *"
+msgstr ""
+
+#: comments.php:65
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:72
+msgid "Comments RSS Feed"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Header On Scroll"
+msgstr ""
+
+#: custom-templates/header-on-scroll.php:30
+#: custom-templates/header-transparent.php:30
+#: custom-templates/no-title.php:34
+#: page.php:30
+#: single.php:54
+msgid "Read More..."
+msgstr ""
+
+#: custom-templates/header-on-scroll.php:37
+#: custom-templates/header-transparent.php:37
+#: custom-templates/no-title.php:41
+#: index.php:71
+#: page.php:37
+#: single.php:106
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Header Transparent"
+msgstr ""
+
+#. Template Name of the theme
+msgid "No Title"
+msgstr ""
+
+#: customizer/customizer.php:5
+msgid "Header Setup"
+msgstr ""
+
+#: customizer/customizer.php:17
+msgid "Menu & Logo Position"
+msgstr ""
+
+#: customizer/customizer.php:20
+msgid "This option allows you to set both the position of the menu and logo, by default the logo is on the left and the menu on the right, by selecting Center both the logo and menu will go to the center, by selecting Left the menu will be aligned to the left"
+msgstr ""
+
+#: customizer/customizer.php:23
+msgid "Left"
+msgstr ""
+
+#: customizer/customizer.php:24
+msgid "Center"
+msgstr ""
+
+#: customizer/customizer.php:25
+msgid "Right"
+msgstr ""
+
+#: customizer/customizer.php:37
+msgid "Banner text (empty = no banner)"
+msgstr ""
+
+#: customizer/customizer.php:42
+msgid "E.g. Black Friday -40%"
+msgstr ""
+
+#: customizer/customizer.php:54
+msgid "Banner URL (empty = no URL)"
+msgstr ""
+
+#: customizer/customizer.php:71
+msgid "Show Search bar"
+msgstr ""
+
+#: customizer/customizer.php:86
+msgid "Search Only Products"
+msgstr ""
+
+#: customizer/customizer.php:104
+msgid "Show Border"
+msgstr ""
+
+#: customizer/customizer.php:117
+msgid "Show Shadow"
+msgstr ""
+
+#: customizer/customizer.php:134
+#: customizer/customizer.php:149
+msgid "Header Background"
+msgstr ""
+
+#: customizer/customizer.php:138
+#: customizer/customizer.php:153
+msgid "It's possible to insert a hex value of 3, 6, 8 digits or an rgba value. To make the header transparent enter an rgba value or an 8-digit hex value."
+msgstr ""
+
+#: customizer/customizer.php:164
+msgid "Header Text Color"
+msgstr ""
+
+#: customizer/customizer.php:177
+msgid "Link Color"
+msgstr ""
+
+#: customizer/customizer.php:190
+msgid "Link Color Hover"
+msgstr ""
+
+#: customizer/customizer.php:203
+msgid "Button Background"
+msgstr ""
+
+#: customizer/customizer.php:216
+msgid "Button Background Hover"
+msgstr ""
+
+#: customizer/customizer.php:229
+msgid "Button Text Color"
+msgstr ""
+
+#: customizer/customizer.php:242
+msgid "Footer Background Color"
+msgstr ""
+
+#: customizer/customizer.php:255
+msgid "Footer Text Color"
+msgstr ""
+
+#: customizer/customizer.php:262
+msgid "Overlay Icon"
+msgstr ""
+
+#: customizer/customizer.php:274
+msgid "Select Icon"
+msgstr ""
+
+#: customizer/customizer.php:279
+msgid "None"
+msgstr ""
+
+#: customizer/customizer.php:280
+msgid "Whatsapp"
+msgstr ""
+
+#: customizer/customizer.php:281
+msgid "Email"
+msgstr ""
+
+#: customizer/customizer.php:282
+msgid "Phone"
+msgstr ""
+
+#: customizer/customizer.php:283
+msgid "Location Marker"
+msgstr ""
+
+#: customizer/customizer.php:295
+msgid "Icon link"
+msgstr ""
+
+#: customizer/customizer.php:298
+msgid "For whatsapp and phone enter only valid numbers, for email enter an email address and for Location Marker enter a link address"
+msgstr ""
+
+#: customizer/customizer.php:304
+msgid "Font"
+msgstr ""
+
+#: customizer/customizer.php:316
+msgid "Font name"
+msgstr ""
+
+#: customizer/customizer.php:319
+msgid "Enter a font name among those available on Google Fonts"
+msgstr ""
+
+#: customizer/customizer.php:331
+msgid "Headings Font name"
+msgstr ""
+
+#: customizer/customizer.php:334
+msgid "Enter a Google Fonts name for the headings"
+msgstr ""
+
+#: customizer/customizer.php:346
+msgid "Headings Weight"
+msgstr ""
+
+#: customizer/customizer.php:349
+msgid "Enter a Google Fonts weights"
+msgstr ""
+
+#: customizer/patterns.php:7
+msgid "SimpleXP - Cover Section Fullwidth"
+msgstr ""
+
+#: customizer/patterns.php:8
+msgid "Cover section with background image and text and call to action."
+msgstr ""
+
+#: customizer/patterns.php:61
+msgid "simplexp - Banner Fullwidth"
+msgstr ""
+
+#: customizer/patterns.php:62
+msgid "Fullwidth banner with a title and a description."
+msgstr ""
+
+#: customizer/patterns.php:85
+msgid "simplexp - Services"
+msgstr ""
+
+#: customizer/patterns.php:86
+msgid "A simple service section with title, description and one card for each service."
+msgstr ""
+
+#: customizer/patterns.php:173
+msgid "simplexp - Buttons"
+msgstr ""
+
+#: customizer/patterns.php:174
+msgid "Two buttons, one filled the other outlined"
+msgstr ""
+
+#: customizer/patterns.php:193
+msgid "simplexp - Hero Fullwidth"
+msgstr ""
+
+#: customizer/patterns.php:194
+msgid "A fullwidth hero with an image end a title, description and call to action."
+msgstr ""
+
+#: customizer/patterns.php:227
+msgid "simplexp - Hero"
+msgstr ""
+
+#: customizer/patterns.php:228
+msgid "A hero with an image a title, description and a call to action."
+msgstr ""
+
+#: customizer/patterns.php:261
+msgid "simplexp - Contacts Section"
+msgstr ""
+
+#: customizer/patterns.php:262
+msgid "Contact section with cards and icons for telephone, email and address"
+msgstr ""
+
+#: customizer/patterns.php:341
+msgid "simplexp - Final CTA"
+msgstr ""
+
+#: customizer/patterns.php:342
+msgid "CTA block with title description and CTA button"
+msgstr ""
+
+#: customizer/patterns.php:367
+msgid "simplexp - FAQ section"
+msgstr ""
+
+#: customizer/patterns.php:368
+msgid "Frequentlly asked questions section."
+msgstr ""
+
+#: customizer/patterns.php:491
+msgid "simplexp - Testimonials section"
+msgstr ""
+
+#: customizer/patterns.php:492
+msgid "Testimonials section with cards rounded image title and description."
+msgstr ""
+
+#: customizer/patterns.php:625
+msgid "simplexp - About Us section"
+msgstr ""
+
+#: customizer/patterns.php:626
+msgid "About us with title description and cards with icons."
+msgstr ""
+
+#: footer.php:41
+msgid "Go to Top"
+msgstr ""
+
+#: functions.php:75
+msgid "Header"
+msgstr ""
+
+#: functions.php:76
+msgid "Header Addons"
+msgstr ""
+
+#: functions.php:84
+msgid "Italic Code"
+msgstr ""
+
+#: functions.php:104
+msgid "Cover"
+msgstr ""
+
+#: functions.php:109
+msgid "Hero"
+msgstr ""
+
+#: functions.php:114
+msgid "FAQ"
+msgstr ""
+
+#: functions.php:194
+msgid "Footer"
+msgstr ""
+
+#: functions.php:196
+msgid "Widget area for the footer."
+msgstr ""
+
+#: functions.php:205
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:207
+msgid "Widget area for the Shop."
+msgstr ""
+
+#: functions.php:230
+msgid "Account"
+msgstr ""
+
+#: functions.php:231
+msgid "Cart"
+msgstr ""
+
+#: functions.php:232
+msgid "Exit"
+msgstr ""
+
+#: functions.php:236
+msgid "Login"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to Content"
+msgstr ""
+
+#: index.php:20
+msgid "Result for:"
+msgstr ""
+
+#: searchform.php:11
+msgid "Try to search something:"
+msgstr ""
+
+#: single.php:57
+msgid "Pages:"
+msgstr ""
+
+#: single.php:86
+msgid "Related Post"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Standard"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Block Template"
+msgstr ""
